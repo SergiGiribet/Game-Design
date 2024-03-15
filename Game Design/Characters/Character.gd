@@ -1,3 +1,5 @@
+@icon("res://assets/kenney_scribbledungeons/Player.png")
+
 extends CharacterBody2D
 
 class_name Character
