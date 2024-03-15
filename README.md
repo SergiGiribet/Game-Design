@@ -1,6 +1,6 @@
 <p align="center">
   <img src="./Game Design/assets/logo.jpg" width="100" alt="Logo"/><br/>
-  Hi welcome to <a href="https://github.com/SergiGiribet">Dungeon Sketch Roguelike</a>
+  ¡Bienvenidos a <a href="https://github.com/SergiGiribet">Dungeon Sketch Roguelike</a>!
 </p>
 
 <p align="center">
@@ -10,32 +10,42 @@
 </p>
 
 ## Descripción
-Bienvenidos al Dungeon Sketch Roguelike, un juego de aventuras y acción en vista top down, donde cada trazo es una batalla por la supervivencia. Inspirado en clásicos como The Binding of Isaac y Cult of the Lamb, este proyecto es una colaboración intensiva de 48 horas para crear una experiencia única en Godot.
+¡Bienvenidos al Dungeon Sketch Roguelike, un emocionante juego de aventuras y acción en vista top down, donde cada trazo es una batalla por la supervivencia! Inspirado en clásicos como The Binding of Isaac y Cult of the Lamb, este proyecto es el resultado de una colaboración intensiva de 48 horas para crear una experiencia única en Godot.
 
 ## Características
 - **Estilo Visual Único**: Gráficos que imitan dibujos a lápiz hechos a mano, proporcionando una estética nostálgica y detallada.
 ![Sketch](Game%20Design/assets/kenney_scribbledungeons/Preview.png)
-Agradecer los assets de [Kenny](https://kenney-assets.itch.io/)
+  Agradecemos los assets de [Kenny](https://kenney-assets.itch.io/)
 
-- **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros y secretos.
+- **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros, secretos y enemigos sorprendentes.
 - **Arsenal Variado**: Encuentra y utiliza diferentes armas y objetos para derrotar a los enemigos que se interponen en tu camino.
-- **Cooperación en Equipo**: Un esfuerzo conjunto entre compañeros apasionados por el desarrollo de juegos.
-![Gerijacki](https://github.com/Gerijacki.png)
-![Girquell](https://github.com/SergiGiribet.png)
-![AClavijosR](https://github.com/AClavijosR.png)
-- **Desafío de Tiempo**: Desde la concepción hasta la finalización, todo en un maratón de desarrollo de dos días.
+- **Cooperación en Equipo**: Un esfuerzo conjunto entre apasionados desarrolladores de juegos.
+
+| Miembros | Nombre     | Rol                    |
+|----------|------------|------------------------|
+| <div align="center"><img src="https://github.com/Gerijacki.png" width="30"></div> | Gerijacki  | Desarrollador de Juegos |
+| <div align="center"><img src="https://github.com/SergiGiribet.png" width="30"></div> | Girquell   | Desarrollador de Juegos |
+| <div align="center"><img src="https://github.com/AClavijosR.png" width="30"></div> | AClavijosR | Desarrollador de Juegos |
+
+
+
+
+
+- **Desafío de Tiempo**: Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
 
 ## Comenzando
-Para jugar, simplemente clona el repositorio y abre el proyecto en Godot. Asegúrate de tener la última versión del motor para evitar problemas de compatibilidad.
+Para jugar, simplemente clona el repositorio y abre el proyecto en Godot.
+
+> **_NOTA:_**  Asegúrate de tener la última versión del motor para evitar problemas de compatibilidad.
 
 ## Contribuir
-Este proyecto es el resultado del trabajo en equipo. Si tienes ideas o quieres contribuir, ¡no dudes en hacer un fork y enviar tus pull requests!
+Este proyecto es el resultado del trabajo en equipo. Si tienes ideas o quieres contribuir, ¡no dudes en hacer un fork y enviar tus pull requests! Consideraremos todo tipo de propuestas.
 
 ## Licencia
-Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE.md para más detalles.
+Este proyecto está bajo la Licencia MIT. Más información en la [Licencia](./LICENSE).
 
 ## Agradecimientos
-- A nuestros colaboradores que han dedicado su tiempo y esfuerzo para hacer realidad este juego.
+- A nuestros colaboradores, que han dedicado su tiempo y esfuerzo para hacer realidad este juego.
 - A la comunidad de Godot por su soporte y recursos.
 - A todos los jugadores que se embarcan en esta aventura con nosotros.
 
