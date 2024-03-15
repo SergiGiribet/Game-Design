@@ -20,6 +20,9 @@ Agradecer los assets de [Kenny](https://kenney-assets.itch.io/)
 - **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros y secretos.
 - **Arsenal Variado**: Encuentra y utiliza diferentes armas y objetos para derrotar a los enemigos que se interponen en tu camino.
 - **Cooperación en Equipo**: Un esfuerzo conjunto entre compañeros apasionados por el desarrollo de juegos.
+![Gerijacki](https://github.com/Gerijacki.png)
+![Girquell](https://github.com/SergiGiribet.png)
+![AClavijosR](https://github.com/AClavijosR.png)
 - **Desafío de Tiempo**: Desde la concepción hasta la finalización, todo en un maratón de desarrollo de dos días.
 
 ## Comenzando
