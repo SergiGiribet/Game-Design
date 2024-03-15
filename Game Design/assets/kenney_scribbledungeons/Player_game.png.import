@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bd2lby7u6w3jq"
-path="res://.godot/imported/Hammer.png-3f57f5f05f8a9d52d1042b058b8e8b00.ctex"
+uid="uid://cjs7bqls3qda6"
+path="res://.godot/imported/Player_game.png-3a640856d5ff0d1c67ce2755f06fcc68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney_scribbledungeons/Weapons/Hammer.png"
-dest_files=["res://.godot/imported/Hammer.png-3f57f5f05f8a9d52d1042b058b8e8b00.ctex"]
+source_file="res://assets/kenney_scribbledungeons/Player_game.png"
+dest_files=["res://.godot/imported/Player_game.png-3a640856d5ff0d1c67ce2755f06fcc68.ctex"]
 
 [params]
 
