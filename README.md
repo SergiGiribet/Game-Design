@@ -20,26 +20,35 @@
 - **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros, secretos y enemigos sorprendentes.
 - **Arsenal Variado**: Encuentra y utiliza diferentes armas y objetos para derrotar a los enemigos que se interponen en tu camino.
 - **Cooperación en Equipo**: Un esfuerzo conjunto entre apasionados desarrolladores de juegos.
-
-| Miembros | Nombre     | Rol                    |
-|----------|------------|------------------------|
-| <div align="center"><img src="https://github.com/Gerijacki.png" width="30"></div> | Gerijacki  | Desarrollador de Juegos |
-| <div align="center"><img src="https://github.com/SergiGiribet.png" width="30"></div> | Girquell   | Desarrollador de Juegos |
-| <div align="center"><img src="https://github.com/AClavijosR.png" width="30"></div> | AClavijosR | Desarrollador de Juegos |
-
-
-
-
-
 - **Desafío de Tiempo**: Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
+
+<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b>Desafío de Tiempo</b></p>
+<p style='margin-left:1em;'>
+Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes.
+</p>
+<p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <b>- Steve Jobs</b> <i>(1994)</i>
+</p></span>
+</div>
 
 ## Comenzando
 Para jugar, simplemente clona el repositorio y abre el proyecto en Godot.
+
+> **Tip:** Puedes encontrar el codigo tambien descargando el .zip
 
 > **_NOTA:_**  Asegúrate de tener la última versión del motor para evitar problemas de compatibilidad.
 
 ## Contribuir
 Este proyecto es el resultado del trabajo en equipo. Si tienes ideas o quieres contribuir, ¡no dudes en hacer un fork y enviar tus pull requests! Consideraremos todo tipo de propuestas.
+
+## Miembros
+| Miembros | Nombre     | Rol                    |
+|----------|------------|------------------------|
+| <div align="center"><img src="https://github.com/Gerijacki.png" width="30"></div> | Gerijacki  | Desarrollador de Juegos |
+| <div align="center"><img src="https://github.com/SergiGiribet.png" width="30"></div> | Girquell   | Desarrollador de Juegos |
+| <div align="center"><img src="https://github.com/AClavijosR.png" width="30"></div> | AClavijosR | Desarrollador de Juegos |
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Más información en la [Licencia](./LICENSE).
