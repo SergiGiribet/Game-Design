@@ -6,7 +6,7 @@ class_name Character
 const FRICTION: float = 0.15
 
 @export var accerelation: int = 40
-@export var max_speed: int = 100
+@export var max_speed: int = 200
 
 var mov_direction: Vector2 = Vector2.ZERO
 

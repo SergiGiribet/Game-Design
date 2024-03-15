@@ -1,28 +1,27 @@
-extends CharacterBody2D
+@icon("res://assets/kenney_scribbledungeons/Player.png")
+
+extends Character
+
+@onready var sprite = $Sprite2D
+
+func _process(_delta: float) -> void:
+	var mouse_direction: Vector2 = (get_global_mouse_position() - global_position).normalized()
+
+	if mouse_direction.x > 0 and sprite.flip_h:
+		sprite.flip_h = false
+	elif mouse_direction.x < 0 and not sprite.flip_h:
+		sprite.flip_h = true
+
+		
+func get_input() -> void:
+	mov_direction = Vector2.ZERO
+	if Input.is_action_pressed("ui_down(s)"):
+		mov_direction += Vector2.DOWN
+	if Input.is_action_pressed("ui_left(a)"):
+		mov_direction += Vector2.LEFT
+	if Input.is_action_pressed("ui_right(d)"):
+		mov_direction += Vector2.RIGHT
+	if Input.is_action_pressed("ui_up(w)"):
+		mov_direction += Vector2.UP
 
 
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
-
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-
-
-func _physics_process(delta):
-	# Add the gravity.
-	if not is_on_floor():
-		velocity.y += gravity * delta
-
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction = Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-
-	move_and_slide()
