@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://btuawp11gfolw"
-path="res://.godot/imported/Long_Sword.png-6371ed4c9368c7f938791267dfe7f533.ctex"
+uid="uid://dtqm1hbfofco"
+path="res://.godot/imported/Axe1.png-e0c93392de8d63a8cc9af9281a7b284f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney_scribbledungeons/Weapons/Long_Sword.png"
-dest_files=["res://.godot/imported/Long_Sword.png-6371ed4c9368c7f938791267dfe7f533.ctex"]
+source_file="res://assets/kenney_scribbledungeons/Weapons/Axe1.png"
+dest_files=["res://.godot/imported/Axe1.png-e0c93392de8d63a8cc9af9281a7b284f.ctex"]
 
 [params]
 
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1
