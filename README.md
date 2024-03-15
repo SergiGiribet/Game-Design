@@ -19,6 +19,24 @@
 
 - **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros, secretos y enemigos sorprendentes.
 - **Arsenal Variado**: Encuentra y utiliza diferentes armas y objetos para derrotar a los enemigos que se interponen en tu camino.
+
+![Dagger](Game%20Design/assets/kenney_scribbledungeons/Weapons/Dagger.png)
+![Small Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Small_Sword.png)
+![large Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Long_Sword.png)
+![Spear](Game%20Design/assets/kenney_scribbledungeons/Weapons/Spear.png)
+![Spear2](Game%20Design/assets/kenney_scribbledungeons/Weapons/Spear2.png)
+![Charged Arch](Game%20Design/assets/kenney_scribbledungeons/Weapons/Charged_Arch.png)
+![Arch](Game%20Design/assets/kenney_scribbledungeons/Weapons/Arch.png)
+![Arrow](Game%20Design/assets/kenney_scribbledungeons/Weapons/arrow.png)
+
+![Axe1](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe1.png)
+![Axe2](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe2.png)
+![Axe3](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe3.png)
+![Tomahawk](Game%20Design/assets/kenney_scribbledungeons/Weapons/Tomahawk.png)
+![Hammer](Game%20Design/assets/kenney_scribbledungeons/Weapons/Hammer.png)
+![Magic Bar](Game%20Design/assets/kenney_scribbledungeons/Weapons/Magic_Bar.png)
+![Curved Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Curve_Shield.png)
+![Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/shield.png)
 - **Cooperación en Equipo**: Un esfuerzo conjunto entre apasionados desarrolladores de juegos.
 - **Desafío de Tiempo**: Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
 
@@ -38,7 +56,7 @@ Para jugar, simplemente clona el repositorio y abre el proyecto en Godot.
 
 > **Tip:** Puedes encontrar el codigo tambien descargando el .zip
 
-> **_NOTA:_**  Asegúrate de tener la última versión del motor para evitar problemas de compatibilidad.
+> **_NOTA:_**  Asegúrate de tener la última versión del motor para evitar problemas de compatibilidad(v4.2.1).
 
 ## Contribuir
 Este proyecto es el resultado del trabajo en equipo. Si tienes ideas o quieres contribuir, ¡no dudes en hacer un fork y enviar tus pull requests! Consideraremos todo tipo de propuestas.
