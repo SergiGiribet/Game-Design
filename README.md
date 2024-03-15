@@ -1,4 +1,13 @@
-# Dungeon Sketch Roguelike
+<p align="center">
+  <img src="./Game Design/assets/logo.jpg" width="100" alt="Logo"/><br/>
+  Hi welcome to <a href="https://github.com/SergiGiribet">Dungeon Sketch Roguelike</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/SergiGiribet/Game-Design/stargazers"><img src="https://img.shields.io/github/stars/SergiGiribet/Game-Design?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+  <a href="https://github.com/SergiGiribet/Game-Design/issues"><img src="https://img.shields.io/github/issues/SergiGiribet/Game-Design?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+  <a href="https://github.com/SergiGiribet/Game-Design/contributors"><img src="https://img.shields.io/github/contributors/SergiGiribet/Game-Design?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p>
 
 ## Descripción
 Bienvenidos al Dungeon Sketch Roguelike, un juego de aventuras y acción en vista top down, donde cada trazo es una batalla por la supervivencia. Inspirado en clásicos como The Binding of Isaac y Cult of the Lamb, este proyecto es una colaboración intensiva de 48 horas para crear una experiencia única en Godot.
@@ -28,3 +37,7 @@ Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE.md para más 
 - A todos los jugadores que se embarcan en esta aventura con nosotros.
 
 ¡Esperamos que disfrutes jugando tanto como nosotros disfrutamos creándolo!
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+</p>
