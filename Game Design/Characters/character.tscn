@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Characters/Character.gd" id="1_umjyt"]
 [ext_resource type="Script" path="res://Characters/FSM.gd" id="2_mbcic"]
-[ext_resource type="Texture2D" uid="uid://dvp87qetaq7ma" path="res://assets/kenney_scribbledungeons/Player.png" id="3_rfwvl"]
+[ext_resource type="Texture2D" uid="uid://cjs7bqls3qda6" path="res://assets/kenney_scribbledungeons/Player_game.png" id="3_dpqjf"]
 
 [node name="Character" type="CharacterBody2D"]
 script = ExtResource("1_umjyt")
@@ -12,6 +12,8 @@ script = ExtResource("2_mbcic")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-3, 2)
-texture = ExtResource("3_rfwvl")
+texture = ExtResource("3_dpqjf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://d3idqy5kxjs7l"
-=======
-uid="uid://cwc0r0w6qmdyl"
->>>>>>> ecdb9b7681b9e4fe9e286218a07e375426ffd199
-path="res://.godot/imported/Arrow.png-d167dfcf4e47abaa54f69a469a57e993.ctex"
+uid="uid://cjs7bqls3qda6"
+path="res://.godot/imported/Player_game.png-3a640856d5ff0d1c67ce2755f06fcc68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney_scribbledungeons/Weapons/Arrow.png"
-dest_files=["res://.godot/imported/Arrow.png-d167dfcf4e47abaa54f69a469a57e993.ctex"]
+source_file="res://assets/kenney_scribbledungeons/Player_game.png"
+dest_files=["res://.godot/imported/Player_game.png-3a640856d5ff0d1c67ce2755f06fcc68.ctex"]
 
 [params]
 

@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://dfl0qw7nwbxvg"]
+
+[ext_resource type="PackedScene" uid="uid://be3ggpy7k6vim" path="res://Characters/character.tscn" id="1_cien1"]
+[ext_resource type="Script" path="res://Player.gd" id="2_nqdho"]
+[ext_resource type="Script" path="res://Characters/Player/FiniteStateMachine.gd" id="3_w8d5l"]
+
+[node name="Player" instance=ExtResource("1_cien1")]
+script = ExtResource("2_nqdho")
+
+[node name="FiniteStateMachine" parent="." index="0"]
+script = ExtResource("3_w8d5l")
