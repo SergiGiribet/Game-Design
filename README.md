@@ -5,6 +5,9 @@ Bienvenidos al Dungeon Sketch Roguelike, un juego de aventuras y acción en vist
 
 ## Características
 - **Estilo Visual Único**: Gráficos que imitan dibujos a lápiz hechos a mano, proporcionando una estética nostálgica y detallada.
+![Sketch](Game%20Design/assets/kenney_scribbledungeons/Preview.png)
+Agradecer los assets de [Kenny](https://kenney-assets.itch.io/)
+
 - **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros y secretos.
 - **Arsenal Variado**: Encuentra y utiliza diferentes armas y objetos para derrotar a los enemigos que se interponen en tu camino.
 - **Cooperación en Equipo**: Un esfuerzo conjunto entre compañeros apasionados por el desarrollo de juegos.
