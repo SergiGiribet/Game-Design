@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://bvkmc7f7kni4x"
-=======
-uid="uid://drv4bqv6ed4kd"
->>>>>>> 6239b84b1e5b572e171d3ebf289dab5226d0724c
-path="res://.godot/imported/Arch.png-fb435d85d37ed8e122b88792c8012855.ctex"
+uid="uid://bhoc4cu2b2nna"
+path="res://.godot/imported/logo.jpg-7371fe58d8b3519eaee092b58194058b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney_scribbledungeons/Weapons/Arch.png"
-dest_files=["res://.godot/imported/Arch.png-fb435d85d37ed8e122b88792c8012855.ctex"]
+source_file="res://assets/logo.jpg"
+dest_files=["res://.godot/imported/logo.jpg-7371fe58d8b3519eaee092b58194058b.ctex"]
 
 [params]
 

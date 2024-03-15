@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://d12oro4fglak2"
+=======
 uid="uid://nu0v2y0d5py2"
+>>>>>>> 6239b84b1e5b572e171d3ebf289dab5226d0724c
 path="res://.godot/imported/Magic_Bar.png-7db6accc59668b54d4f1b4bc673c89c3.ctex"
 metadata={
 "vram_texture": false
