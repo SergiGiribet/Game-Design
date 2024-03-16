@@ -36,7 +36,6 @@ func chase() -> void:
 
 func _get_path_to_player() -> void:
 	navigation_agent.target_position = player.position
-	print(player.position)
 
 
 

@@ -27,29 +27,23 @@ func move() -> void:
 	velocity += mov_direction * accerelation
 	velocity = velocity.limit_length(max_speed)
 
-#func take_damage(dam: int, dir: Vector2, force: int) -> void:
-	#if state_machine.state != state_machine.states.hurt and state_machine.state != state_machine.states.dead:
-		#_spawn_hit_effect()
-		#self.hp -= dam
-		#if name == "Player":
-			##SavedData.hp = hp
-			#if hp == 0:
-				##SceneTransistor.start_transition_to("res://Game.tscn")
-				##SavedData.reset_data()
-				#print("dead")
-		#if hp > 0:
-			#state_machine.set_state(state_machine.states.hurt)
-			#velocity += dir * force
-		#else:
-			#state_machine.set_state(state_machine.states.dead)
-			#velocity += dir * force * 2
-
 func take_damage(dam: int, dir: Vector2, force: int) -> void:
-	max_hp -= dam
-	state_machine.set_state(state_machine.states_hurt)
-	velocity += dir * force
-	
-	
+	if state_machine.state != state_machine.states.hurt and state_machine.state != state_machine.states.dead:
+		_spawn_hit_effect()
+		self.hp -= dam
+		if name == "Player":
+			#SavedData.hp = hp
+			if hp == 0:
+				#SceneTransistor.start_transition_to("res://Game.tscn")
+				#SavedData.reset_data()
+				print("dead")
+		if hp > 0:
+			state_machine.set_state(state_machine.states.hurt)
+			velocity += dir * force
+		else:
+			state_machine.set_state(state_machine.states.dead)
+			velocity += dir * force * 2
+
 
 func set_hp(new_hp: int) -> void:
 	hp = clamp(new_hp, 0, max_hp)
