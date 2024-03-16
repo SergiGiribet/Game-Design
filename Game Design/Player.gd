@@ -2,6 +2,8 @@
 
 extends Character
 
+@onready var weapon: Node2D = get_node("Weapon")
+
 @onready var sprite = $Sprite2D
 
 func _process(_delta: float) -> void:
