@@ -1,8 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://be3ggpy7k6vim"]
+[gd_scene load_steps=6 format=3 uid="uid://be3ggpy7k6vim"]
 
 [ext_resource type="Script" path="res://Characters/Character.gd" id="1_umjyt"]
 [ext_resource type="Script" path="res://Characters/FSM.gd" id="2_mbcic"]
+[ext_resource type="Texture2D" uid="uid://btuawp11gfolw" path="res://assets/kenney_scribbledungeons/Weapons/Long_Sword.png" id="3_5su2e"]
 [ext_resource type="Texture2D" uid="uid://cjs7bqls3qda6" path="res://assets/kenney_scribbledungeons/Player_game.png" id="3_dpqjf"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_06loe"]
+radius = 21.0
 
 [node name="Character" type="CharacterBody2D"]
 script = ExtResource("1_umjyt")
@@ -10,10 +14,21 @@ script = ExtResource("1_umjyt")
 [node name="FiniteStateMachine" type="Node" parent="."]
 script = ExtResource("2_mbcic")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Weapon" type="Node2D" parent="."]
+
+[node name="Node2D" type="Node2D" parent="Weapon"]
+
+[node name="Weapon" type="Sprite2D" parent="Weapon"]
+position = Vector2(42, 21)
+rotation = 1.57079
+texture = ExtResource("3_5su2e")
+
+[node name="Char" type="Sprite2D" parent="."]
 position = Vector2(-3, 2)
 texture = ExtResource("3_dpqjf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-5, 5)
+shape = SubResource("CircleShape2D_06loe")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

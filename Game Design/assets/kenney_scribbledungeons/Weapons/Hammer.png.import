@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bo7eeak6tiic8"
+=======
+uid="uid://cgac0k2q5iupp"
+>>>>>>> 1b4ed31f2e0af237d2f5926e26ea8bef0ed87681
 path="res://.godot/imported/Hammer.png-3f57f5f05f8a9d52d1042b058b8e8b00.ctex"
 metadata={
 "vram_texture": false

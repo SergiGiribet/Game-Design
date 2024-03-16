@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://c2i2rnlr7fwpj"
+=======
+uid="uid://cyco3exu8swwk"
+>>>>>>> 1b4ed31f2e0af237d2f5926e26ea8bef0ed87681
 path="res://.godot/imported/Tomahawk.png-0a8d7e6276b35b982aedbe882a540bc7.ctex"
 metadata={
 "vram_texture": false
