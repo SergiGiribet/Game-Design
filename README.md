@@ -52,20 +52,17 @@
 - **Cooperación en Equipo**: Un esfuerzo conjunto entre apasionados desarrolladores de juegos.
 - **Interfaz Intuitiva**: Con una interfaz de iconos simples simulando un estilo <i>Cartoon</i>.
 
-<div class="warning" style='padding:0.5em; background-color:#E9D8FD; color:#69337A; text-align:center;'>
-  <span>
-    <p style='margin-top:1em;'>
-      <b>Desafío de Tiempo</b>
-    </p>
-    <p style='margin-left:1em;'>
-      Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
-      <br>
-      <i style='padding-left: 1em;'>"Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes."</i>
-    </p>
-    <p style='margin-bottom:0.5em; margin-right:1em; text-align:right; font-family:Georgia;'>
-      <b>- Steve Jobs</b> <i>(1994)</i>
-    </p>
-  </span>
+<div style="padding: 10px; background-color: #E9D8FD; color: #69337A; text-align: center;">
+  <p style="margin-top: 1em;">
+    <strong>Desafío de Tiempo</strong>
+  </p>
+  <p style="margin-left: 1em;">
+    Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.<br>
+    <em style="padding-left: 1em;">"Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes."</em>
+  </p>
+  <p style="margin-bottom: 0.5em; margin-right: 1em; text-align: right; font-family: Georgia;">
+    <strong>- Steve Jobs</strong> <em>(1994)</em>
+  </p>
 </div>
 
 
