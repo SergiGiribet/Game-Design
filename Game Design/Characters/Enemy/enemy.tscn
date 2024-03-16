@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1bvwwcm1uty3"]
+
+[ext_resource type="PackedScene" uid="uid://be3ggpy7k6vim" path="res://Characters/character.tscn" id="1_egf20"]
+[ext_resource type="Script" path="res://Characters/Enemy/enemy.gd" id="2_l1cpc"]
+
+[node name="Enemy" instance=ExtResource("1_egf20")]
+script = ExtResource("2_l1cpc")
+
+[node name="PathTimer" type="Timer" parent="." index="5"]

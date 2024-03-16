@@ -5,8 +5,6 @@ extends Character
 @onready var weapon: Node2D = get_node("Weapon")
 @onready var weapon_animation_player: AnimationPlayer = weapon.get_node("WeaponAnimationPlayer")
 
-@onready var sprite = $Sprite2D
-
 func _ready():
 	weapon.get_node("Slash").visible = false
 
