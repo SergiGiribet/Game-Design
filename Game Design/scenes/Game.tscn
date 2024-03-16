@@ -1,7 +1,8 @@
-[gd_scene load_steps=111 format=3 uid="uid://brco37nd20q0l"]
+[gd_scene load_steps=112 format=3 uid="uid://brco37nd20q0l"]
 
 [ext_resource type="Texture2D" uid="uid://cyoh6cu0pqh4l" path="res://assets/kenney_scribbledungeons/Tilesheet/tilesheet.png" id="1_ocnf5"]
 [ext_resource type="PackedScene" uid="uid://dfl0qw7nwbxvg" path="res://Characters/Player/player.tscn" id="2_faygk"]
+[ext_resource type="PackedScene" uid="uid://d1bvwwcm1uty3" path="res://Characters/Enemy/enemy.tscn" id="3_32jhl"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_iusqe"]
 vertices = PackedVector2Array(8, 8, -8, 8, -8, -8, 8, -8)
@@ -7651,3 +7652,7 @@ layer_0/tile_data = PackedInt32Array(0, 524288, 0, 65536, 524288, 1, 131072, 524
 [node name="Player" parent="." instance=ExtResource("2_faygk")]
 z_index = 1
 position = Vector2(57, 52)
+
+[node name="Enemy" parent="." instance=ExtResource("3_32jhl")]
+z_index = 1
+position = Vector2(500, 321)
