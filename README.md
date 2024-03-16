@@ -57,7 +57,8 @@
     <strong>Desafío de Tiempo</strong>
   </p>
   <p style="margin-left: 1em;">
-    Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.<br>
+    Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
+    <br>
     <em style="padding-left: 1em;">"Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes."</em>
   </p>
   <p style="margin-bottom: 0.5em; margin-right: 1em; text-align: right; font-family: Georgia;">
