@@ -19,4 +19,3 @@ func move() -> void:
 	mov_direction = mov_direction.normalized()
 	velocity += mov_direction * accerelation
 	velocity = velocity.limit_length(max_speed)
-	
