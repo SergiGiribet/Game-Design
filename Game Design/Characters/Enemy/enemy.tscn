@@ -30,3 +30,4 @@ texture = ExtResource("3_ygo6l")
 position = Vector2(-3, 0)
 
 [node name="PathTimer" type="Timer" parent="." index="5"]
+autostart = true

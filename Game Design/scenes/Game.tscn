@@ -7651,7 +7651,7 @@ layer_0/tile_data = PackedInt32Array(0, 524288, 0, 65536, 524288, 1, 131072, 524
 
 [node name="Player" parent="." instance=ExtResource("2_faygk")]
 z_index = 1
-position = Vector2(57, 52)
+position = Vector2(903, 507)
 
 [node name="Enemy" parent="." instance=ExtResource("3_32jhl")]
 z_index = 1
