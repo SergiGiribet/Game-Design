@@ -7,11 +7,19 @@ extends Character
 
 @onready var sprite = $Sprite2D
 
+func _ready():
+	weapon.get_node("Slash").visible = false
+
 func _process(_delta: float) -> void:
 	var mouse_position: Vector2 = get_global_mouse_position()
 	self.look_at(mouse_position)
 	if Input.is_action_pressed("ui_attack") and not weapon_animation_player.is_playing():
+		weapon.get_node("Slash").visible = true
 		weapon_animation_player.play("attack")
+		await get_tree().create_timer(0.2).timeout
+		weapon.get_node("Slash").visible = false
+		
+
 
 func get_input() -> void:
 	mov_direction = Vector2.ZERO
