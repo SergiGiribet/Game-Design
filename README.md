@@ -30,7 +30,6 @@
 - **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros, secretos y enemigos sorprendentes.
 - **Arsenal Variado**: Encuentra y utiliza diferentes armas y objetos para derrotar a los enemigos que se interponen en tu camino.
   
-**Armas:**
 ![Dagger](Game%20Design/assets/kenney_scribbledungeons/Weapons/Dagger.png)
 ![Small Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Small_Sword.png)
 ![Large Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Long_Sword.png)
@@ -45,8 +44,6 @@
 ![Tomahawk](Game%20Design/assets/kenney_scribbledungeons/Weapons/Tomahawk.png)
 ![Hammer](Game%20Design/assets/kenney_scribbledungeons/Weapons/Hammer.png)
 ![Magic Bar](Game%20Design/assets/kenney_scribbledungeons/Weapons/Magic_Bar.png)
-
-**Escudos:**
 ![Curved Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Curve_Shield.png)
 ![Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Shield.png)
 
