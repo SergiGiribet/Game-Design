@@ -3,6 +3,7 @@
 extends Character
 
 @onready var weapon: Node2D = get_node("Weapon")
+@onready var weapon_hitbox: Area2D = get_node("Weapon/Node2D/Weapon/Hitbox")
 @onready var weapon_animation_player: AnimationPlayer = weapon.get_node("WeaponAnimationPlayer")
 
 func _ready():
