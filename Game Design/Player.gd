@@ -12,6 +12,9 @@ func _ready():
 func _process(_delta: float) -> void:
 	var mouse_position: Vector2 = get_global_mouse_position()
 	self.look_at(mouse_position)
+	
+	weapon_hitbox.knockback_direction = mouse_position
+	
 	if Input.is_action_pressed("ui_attack") and not weapon_animation_player.is_playing():
 		weapon.get_node("Slash").visible = true
 		weapon_animation_player.play("attack")

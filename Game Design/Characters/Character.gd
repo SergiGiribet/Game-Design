@@ -28,21 +28,24 @@ func move() -> void:
 	velocity = velocity.limit_length(max_speed)
 
 func take_damage(dam: int, dir: Vector2, force: int) -> void:
-	if state_machine.state != state_machine.states.hurt and state_machine.state != state_machine.states.dead:
-		_spawn_hit_effect()
-		self.hp -= dam
-		if name == "Player":
-			#SavedData.hp = hp
-			if hp == 0:
-				#SceneTransistor.start_transition_to("res://Game.tscn")
-				#SavedData.reset_data()
-				print("dead")
-		if hp > 0:
-			state_machine.set_state(state_machine.states.hurt)
-			velocity += dir * force
-		else:
-			state_machine.set_state(state_machine.states.dead)
-			velocity += dir * force * 2
+	#if state_machine.state != state_machine.states.hurt and state_machine.state != state_machine.states.dead:
+		#_spawn_hit_effect()
+		#self.hp -= dam
+		hp -= dam
+		state_machine.set_state(state_machine.states.hurt)
+		velocity += dir * force
+		#if name == "Player":
+			##SavedData.hp = hp
+			#if hp == 0:
+				##SceneTransistor.start_transition_to("res://Game.tscn")
+				##SavedData.reset_data()
+				#print("dead")
+		#if hp > 0:
+			#state_machine.set_state(state_machine.states.hurt)
+			#velocity += dir * force
+		#else:
+			#state_machine.set_state(state_machine.states.dead)
+			#velocity += dir * force * 2
 
 
 func set_hp(new_hp: int) -> void:
