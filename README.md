@@ -29,7 +29,7 @@
 
 - **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros, secretos y enemigos sorprendentes.
 - **Arsenal Variado**: Encuentra y utiliza diferentes armas y objetos para derrotar a los enemigos que se interponen en tu camino.
-  
+**Armas:**
 ![Dagger](Game%20Design/assets/kenney_scribbledungeons/Weapons/Dagger.png)
 ![Small Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Small_Sword.png)
 ![Large Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Long_Sword.png)
@@ -44,24 +44,30 @@
 ![Tomahawk](Game%20Design/assets/kenney_scribbledungeons/Weapons/Tomahawk.png)
 ![Hammer](Game%20Design/assets/kenney_scribbledungeons/Weapons/Hammer.png)
 ![Magic Bar](Game%20Design/assets/kenney_scribbledungeons/Weapons/Magic_Bar.png)
+
+**Escudos:**
 ![Curved Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Curve_Shield.png)
 ![Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Shield.png)
 
 - **Cooperación en Equipo**: Un esfuerzo conjunto entre apasionados desarrolladores de juegos.
 - **Interfaz Intuitiva**: Con una interfaz de iconos simples simulando un estilo <i>Cartoon</i>.
 
-<div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<b>Desafío de Tiempo</b></p>
-<p style='margin-left:1em;'>
-Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
-
-<i style='padding: 1cm'>"Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes."</i>
-</p>
-<p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <b>- Steve Jobs</b> <i>(1994)</i>
-</p></span>
+<div class="warning" style='padding:0.5em; background-color:#E9D8FD; color:#69337A; text-align:center;'>
+  <span>
+    <p style='margin-top:1em;'>
+      <b>Desafío de Tiempo</b>
+    </p>
+    <p style='margin-left:1em;'>
+      Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
+      <br>
+      <i style='padding-left: 1em;'>"Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes."</i>
+    </p>
+    <p style='margin-bottom:0.5em; margin-right:1em; text-align:right; font-family:Georgia;'>
+      <b>- Steve Jobs</b> <i>(1994)</i>
+    </p>
+  </span>
 </div>
+
 
 ## Desarrollo y Tecnologías Utilizadas <a name="desarrollo-y-tecnologías-utilizadas"></a>
 El juego fue desarrollado utilizando el motor de juego Godot. Se emplearon técnicas de generación procedural para crear las mazmorras y se implementaron gráficos dibujados a mano para lograr un estilo visual único. Se utilizó Git para el control de versiones y GitHub para la colaboración en equipo.
