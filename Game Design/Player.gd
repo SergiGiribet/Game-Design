@@ -14,7 +14,7 @@ func _process(_delta: float) -> void:
 	if Input.is_action_pressed("ui_attack") and not weapon_animation_player.is_playing():
 		weapon.get_node("Slash").visible = true
 		weapon_animation_player.play("attack")
-		await get_tree().create_timer(0.2).timeout
+		await get_tree().create_timer(0.1).timeout
 		weapon.get_node("Slash").visible = false
 		
 

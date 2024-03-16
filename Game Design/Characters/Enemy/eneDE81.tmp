@@ -7,7 +7,6 @@
 
 [node name="Enemy" instance=ExtResource("1_egf20")]
 script = ExtResource("2_l1cpc")
-max_speed = 150
 
 [node name="FiniteStateMachine" parent="." index="0"]
 script = ExtResource("3_o2q3i")
@@ -33,5 +32,3 @@ position = Vector2(-3, 0)
 [node name="PathTimer" type="Timer" parent="." index="5"]
 wait_time = 3.0
 autostart = true
-
-[node name="NavigationAgent2D" type="NavigationAgent2D" parent="." index="6"]
