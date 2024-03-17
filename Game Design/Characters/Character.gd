@@ -21,7 +21,6 @@ func _physics_process(_delta: float) -> void:
 	move_and_slide()
 	velocity = lerp(velocity, Vector2.ZERO, FRICTION)
 
-
 func move() -> void:
 	mov_direction = mov_direction.normalized()
 	velocity += mov_direction * accerelation

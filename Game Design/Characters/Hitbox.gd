@@ -2,8 +2,9 @@ extends Area2D
 class_name Hitbox
 
 @export var damage: int = 1
-var knockback_direction: Vector2 = Vector2.ZERO
 @export var knockback_force: int = 300
+@onready var mouse_position: Vector2 = get_global_mouse_position()
+var knockback_direction: Vector2 = mouse_position
 
 var body_inside: bool = false
 
@@ -12,8 +13,8 @@ var body_inside: bool = false
 
 
 func _init() -> void:
-	var __ = connect("body_entered", Callable(self, "_on_body_entered"))
-	__ = connect("body_exited", Callable(self, "_on_body_exited"))
+	connect("body_entered", Callable(self, "_on_body_entered"))
+	connect("body_exited", Callable(self, "_on_body_exited"))
 
 
 func _ready() -> void:
@@ -29,14 +30,15 @@ func _on_body_entered(body: Node2D) -> void:
 		_collide(body)
 		await timer.timeout
 
-
 func _on_body_exited(_body: Node2D) -> void:
 	body_inside = false
 	timer.stop()
 
-
 func _collide(body: Node2D) -> void:
 	if body == null or not body.has_method("take_damage"):
+		print("ola")
 		queue_free()
+		print("olaa")
 	else:
 		body.take_damage(damage, knockback_direction, knockback_force)
+		print("ola2")

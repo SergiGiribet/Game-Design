@@ -1,24 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://dfl0qw7nwbxvg"]
+[gd_scene load_steps=4 format=3 uid="uid://dfl0qw7nwbxvg"]
 
 [ext_resource type="PackedScene" uid="uid://be3ggpy7k6vim" path="res://Characters/character.tscn" id="1_cien1"]
 [ext_resource type="Script" path="res://Player.gd" id="2_nqdho"]
 [ext_resource type="Script" path="res://Characters/Player/FiniteStateMachine.gd" id="3_w8d5l"]
-[ext_resource type="Script" path="res://Characters/Hitbox.gd" id="4_0gk60"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_a8vdb"]
-size = Vector2(10.4282, 35.4808)
 
 [node name="Player" instance=ExtResource("1_cien1")]
 script = ExtResource("2_nqdho")
 
 [node name="FiniteStateMachine" parent="." index="0"]
 script = ExtResource("3_w8d5l")
-
-[node name="Hitbox" type="Area2D" parent="Weapon/Node2D/Weapon" index="0"]
-collision_layer = 0
-collision_mask = 4
-script = ExtResource("4_0gk60")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Weapon/Node2D/Weapon/Hitbox" index="0"]
-position = Vector2(2.08013, -3.98205)
-shape = SubResource("RectangleShape2D_a8vdb")
