@@ -2,7 +2,7 @@ extends Area2D
 class_name Hitbox
 
 @export var damage: int = 1
-@export var knockback_force: int = 300
+@export var knockback_force: int = 1
 @onready var mouse_position: Vector2 = get_global_mouse_position()
 var knockback_direction: Vector2 = mouse_position
 
@@ -11,7 +11,6 @@ var body_inside: bool = false
 @onready var collision_shape: CollisionShape2D = get_child(0)
 @onready var timer: Timer = Timer.new()
 
-
 func _init() -> void:
 	connect("body_entered", Callable(self, "_on_body_entered"))
 	connect("body_exited", Callable(self, "_on_body_exited"))
@@ -19,7 +18,6 @@ func _init() -> void:
 
 func _ready() -> void:
 	assert(collision_shape != null)
-	timer.wait_time = 1
 	add_child(timer)
 
 
@@ -36,9 +34,6 @@ func _on_body_exited(_body: Node2D) -> void:
 
 func _collide(body: Node2D) -> void:
 	if body == null or not body.has_method("take_damage"):
-		print("ola")
 		queue_free()
-		print("olaa")
 	else:
 		body.take_damage(damage, knockback_direction, knockback_force)
-		print("ola2")

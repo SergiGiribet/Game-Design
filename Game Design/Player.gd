@@ -20,8 +20,6 @@ func _process(_delta: float) -> void:
 		weapon_animation_player.play("attack")
 		await get_tree().create_timer(0.1).timeout
 		weapon.get_node("Slash").visible = false
-		
-
 
 func get_input() -> void:
 	mov_direction = Vector2.ZERO
