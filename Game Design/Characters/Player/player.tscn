@@ -9,6 +9,3 @@ script = ExtResource("2_nqdho")
 
 [node name="FiniteStateMachine" parent="." index="0"]
 script = ExtResource("3_w8d5l")
-
-[node name="CollisionShape2D" parent="Weapon/Node2D/Weapon/Hitbox" index="0"]
-disabled = true

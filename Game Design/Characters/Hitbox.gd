@@ -33,7 +33,12 @@ func _on_body_exited(_body: Node2D) -> void:
 	timer.stop()
 
 func _collide(body: Node2D) -> void:
+	var debounce  = false
 	if body == null or not body.has_method("take_damage"):
 		queue_free()
 	else:
-		body.take_damage(damage, knockback_direction, knockback_force)
+		#if (debounce == false):
+			body.take_damage(damage, knockback_direction, knockback_force)
+			#debounce = true
+			#await get_tree().create_timer(0.1).timeout
+			#debounce = false
