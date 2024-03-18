@@ -33,7 +33,7 @@ func _on_body_exited(_body: Node2D) -> void:
 	timer.stop()
 
 func _collide(body: Node2D) -> void:
-	var debounce  = false
+	#var debounce  = false
 	if body == null or not body.has_method("take_damage"):
 		queue_free()
 	else:
