@@ -8,7 +8,7 @@ class_name Enemy
 @onready var navigation_agent: NavigationAgent2D = get_node("NavigationAgent2D")
 
 func _ready() -> void:
-	await get_tree().create_timer(3).timeout
+	await get_tree().create_timer(1).timeout
 	var __ = connect("tree_exited", Callable(get_parent(), "_on_enemy_killed"))
 	while(player):
 		if is_instance_valid(player):
@@ -24,4 +24,5 @@ func chase() -> void:
 		mov_direction = vector_to_next_point
 
 func _get_path_to_player() -> void:
+	#crec que el problema pot ser el moviment de player
 	navigation_agent.target_position = player.position

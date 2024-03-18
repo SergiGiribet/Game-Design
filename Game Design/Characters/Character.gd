@@ -31,7 +31,6 @@ func take_damage(dam: int, dir: Vector2, force: int) -> void:
 		#_spawn_hit_effect()
 		#self.hp -= dam
 		hp -= dam
-		state_machine.set_state(state_machine.states.hurt)
 		velocity += dir * force
 		#if name == "Player":
 			##SavedData.hp = hp

@@ -32,8 +32,8 @@ func _enter_state(_previous_state: int, new_state: int) -> void:
 			#animation_player.play("move")
 			print("enemy/move")
 		states.hurt:
-			#animation_player.play("hurt")
+			animation_player.play("hurt")
 			print("enemy/hurt")
 		states.dead:
-			#animation_player.play("dead")
+			animation_player.play("dead")
 			print("enemy/dead")
