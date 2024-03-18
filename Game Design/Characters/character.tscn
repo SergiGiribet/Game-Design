@@ -59,7 +59,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [false]
+"values": [true]
 }
 
 [sub_resource type="Animation" id="Animation_jbdfk"]
@@ -152,6 +152,7 @@ script = ExtResource("5_tui5h")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Weapon/Node2D/Weapon/Hitbox"]
 position = Vector2(2.09808, -2.36602)
 shape = SubResource("CapsuleShape2D_hujv0")
+disabled = true
 
 [node name="WeaponAnimationPlayer" type="AnimationPlayer" parent="Weapon"]
 root_node = NodePath("../Node2D")
