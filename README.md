@@ -24,7 +24,7 @@
 
 ## Características
 - **Estilo Visual Único**: Gráficos que imitan dibujos a lápiz hechos a mano, proporcionando una estética nostálgica y detallada.
-![Sketch](Game%20Design/assets/kenney_scribbledungeons/Preview.png)
+  ![Sketch](Game%20Design/assets/kenney_scribbledungeons/Preview.png)
   Agradecemos los assets de [Kenny](https://kenney-assets.itch.io/)
 
 - **Exploración de Mazmorras**: Comienza en una zona segura y avanza a través de habitaciones generadas proceduralmente llenas de peligros, secretos y enemigos sorprendentes.
@@ -32,42 +32,35 @@
 
 **Armas:**
 
-![Dagger](Game%20Design/assets/kenney_scribbledungeons/Weapons/Dagger.png)
-![Small Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Small_Sword.png)
-![Large Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Long_Sword.png)
-![Spear](Game%20Design/assets/kenney_scribbledungeons/Weapons/Spear.png)
-![Spear2](Game%20Design/assets/kenney_scribbledungeons/Weapons/Spear2.png)
-![Charged Arch](Game%20Design/assets/kenney_scribbledungeons/Weapons/Charged_Arch.png)
-![Arch](Game%20Design/assets/kenney_scribbledungeons/Weapons/Arch.png)
-![Arrow](Game%20Design/assets/kenney_scribbledungeons/Weapons/Arrow.png)
-![Axe1](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe1.png)
-![Axe2](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe2.png)
-![Axe3](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe3.png)
-![Tomahawk](Game%20Design/assets/kenney_scribbledungeons/Weapons/Tomahawk.png)
-![Hammer](Game%20Design/assets/kenney_scribbledungeons/Weapons/Hammer.png)
-![Magic Bar](Game%20Design/assets/kenney_scribbledungeons/Weapons/Magic_Bar.png)
+  ![Dagger](Game%20Design/assets/kenney_scribbledungeons/Weapons/Dagger.png)
+  ![Small Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Small_Sword.png)
+  ![Large Sword](Game%20Design/assets/kenney_scribbledungeons/Weapons/Long_Sword.png)
+  ![Spear](Game%20Design/assets/kenney_scribbledungeons/Weapons/Spear.png)
+  ![Spear2](Game%20Design/assets/kenney_scribbledungeons/Weapons/Spear2.png)
+  ![Charged Arch](Game%20Design/assets/kenney_scribbledungeons/Weapons/Charged_Arch.png)
+  ![Arch](Game%20Design/assets/kenney_scribbledungeons/Weapons/Arch.png)
+  ![Arrow](Game%20Design/assets/kenney_scribbledungeons/Weapons/Arrow.png)
+  ![Axe1](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe1.png)
+  ![Axe2](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe2.png)
+  ![Axe3](Game%20Design/assets/kenney_scribbledungeons/Weapons/Axe3.png)
+  ![Tomahawk](Game%20Design/assets/kenney_scribbledungeons/Weapons/Tomahawk.png)
+  ![Hammer](Game%20Design/assets/kenney_scribbledungeons/Weapons/Hammer.png)
+  ![Magic Bar](Game%20Design/assets/kenney_scribbledungeons/Weapons/Magic_Bar.png)
 
 
 **Escudos:**
 
-![Curved Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Curve_Shield.png)
-![Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Shield.png)
+  ![Curved Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Curve_Shield.png)
+  ![Shield](Game%20Design/assets/kenney_scribbledungeons/Weapons/Shield.png)
 
 - **Cooperación en Equipo**: Un esfuerzo conjunto entre apasionados desarrolladores de juegos.
-- **Interfaz Intuitiva**: Con una interfaz de iconos simples simulando un estilo <i>Cartoon</i>.
+- **Interfaz Intuitiva**: Con una interfaz de iconos simples simulando un estilo Cartoon.
 
-<div style="padding: 10px; background-color: #E9D8FD; color: #69337A; text-align: center;">
-  <p style="margin-top: 1em;">
-    <strong>Desafío de Tiempo</strong>
-  </p>
-  <p style="margin-left: 1em;">
-    Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.
-    <br>
-    <em style="padding-left: 1em;">"Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes."</em>
-  </p>
-  <p style="margin-bottom: 0.5em; margin-right: 1em; text-align: right; font-family: Georgia;">
-    <strong>- Steve Jobs</strong> <em>(1994)</em>
-  </p>
+<div style="background-color: #E9D8FD; padding: 20px; border-radius: 5px; margin-top: 20px; text-align: center;">
+  <strong>Desafío de Tiempo</strong>
+  <p>Desde la concepción hasta la finalización, todo en una maratón de desarrollo de dos días.</p>
+  <p><em>"Trabajar contrarreloj no solo demuestra tu capacidad para cumplir con plazos apremiantes, sino también tu habilidad para mantener la calma y la precisión bajo presión. Es en estos momentos de intensidad donde se demuestra verdaderamente la profundidad de tus conocimientos y tu capacidad para adaptarte y sobresalir en situaciones desafiantes."</em></p>
+  <p style="font-style: italic; text-align: right;">- Steve Jobs (1994)</p>
 </div>
 
 
@@ -77,9 +70,9 @@ El juego fue desarrollado utilizando el motor de juego Godot. Se emplearon técn
 ## Comenzando
 Para jugar, simplemente clona el repositorio y abre el proyecto en Godot.
 
-> **Tip:** Puedes encontrar el codigo tambien descargando el ".zip"
+> **Consejo:** También puedes descargar el código como un archivo ZIP.
 
-> **_NOTA:_**  Asegúrate de tener la última versión del motor para evitar problemas de compatibilidad(v4.2.1).
+> **Nota:** Asegúrate de tener la última versión del motor para evitar problemas de compatibilidad (v4.2.1).
 
 ## Contribuir
 Este proyecto es el resultado del trabajo en equipo. Si tienes ideas o quieres contribuir, ¡no dudes en hacer un fork y enviar tus pull requests! Consideraremos todo tipo de propuestas.
@@ -87,9 +80,9 @@ Este proyecto es el resultado del trabajo en equipo. Si tienes ideas o quieres c
 ## Miembros
 | Miembros | Nombre     | Rol                    |
 |----------|------------|------------------------|
-| <div align="center"><img src="https://github.com/Gerijacki.png" width="30"></div> | Gerijacki  | Desarrollador de Juegos |
-| <div align="center"><img src="https://github.com/SergiGiribet.png" width="30"></div> | Girquell   | Desarrollador de Juegos |
-| <div align="center"><img src="https://github.com/AClavijosR.png" width="30"></div> | AClavijosR | Desarrollador de Juegos |
+| <img src="https://github.com/Gerijacki.png" width="30"> | Gerijacki  | Desarrollador de Juegos |
+| <img src="https://github.com/SergiGiribet.png" width="30"> | SergiGiribet   | Desarrollador de Juegos |
+| <img src="https://github.com/AClavijosR.png" width="30"> | AClavijosR | Desarrollador de Juegos |
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Más información en la [Licencia](./LICENSE).
